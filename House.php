@@ -42,7 +42,7 @@ class house {
     }
 
     public function price($price) {
-        if (is_int($price) && $price >= 1 && $price < 20){
+        if (is_int($price) && $price >= 400 && $price < 500.000){
             $this->price = $price;
         } else{
             die();
