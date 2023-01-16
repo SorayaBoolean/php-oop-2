@@ -44,7 +44,7 @@ class house {
     }
 
     public function setPrice($price) {
-        if (is_int($price) && $price >= 400 && $price < 500.000){
+        if (is_int($price) && $price >= 400 && $price < 500000){
             $this->price = $price;
         } else{
             die();
